@@ -1,0 +1,39 @@
+{
+  "bankName": "HDFC Bank (Demo)",
+  "accountType": "Savings",
+  "opening_balance": 42000,
+  "missed_emi_count": 1,
+
+  "transactions": [
+    {
+      "amount": -42000,
+      "type": "bulk_debit",
+      "description": "Large expense – account drained to zero"
+    },
+    {
+      "amount": 800,
+      "type": "upi",
+      "description": "Small credit – balance below EMI"
+    },
+    {
+      "amount": 2200,
+      "type": "transfer",
+      "description": "Partial income – balance around ₹3000"
+    },
+    {
+      "amount": 8000,
+      "type": "salary",
+      "description": "Salary credit – balance crosses ₹10,000"
+    },
+    {
+      "amount": -9500,
+      "type": "card",
+      "description": "Major spending – balance drops again"
+    },
+    {
+      "amount": 15000,
+      "type": "salary",
+      "description": "Strong income – high cashflow day"
+    }
+  ]
+}

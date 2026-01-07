@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background: #F5F7FA;
+  color: #1F2937;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 8px;
+  border-radius: 8px;
+  border: 1px solid #CBD5E1;
+  font-size: 14px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #00B4A6;
+}
